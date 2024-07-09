@@ -1,0 +1,61 @@
+#garage_sale{
+   
+
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+h1{
+    color: burlywood;
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+h2{
+    text-align: center;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    flex: 1;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    
+    font-size:larger;
+    font-weight: bold;
+    width: 450px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+}
+
+input [type="submit"]:hover{
+    background-color: pink;
+}
+
+.table_data{
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+

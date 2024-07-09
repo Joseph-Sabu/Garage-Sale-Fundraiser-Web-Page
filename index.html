@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage Sale Fund Raiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Garage Sale Fund Raiser</h1>
+    
+    <form id="garage_sale">
+        <div class ="form_group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name_val" placeholder="First and Last Name"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_val" placeholder="email@domain.com"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="credit_card">Credit Card Number</label>
+            <input type="text" id="credit_card" name="credit_card_val" placeholder="XXXX-XXXX-XXXX-XXXX"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="credit_expiry_month">Credit Card Expiry Month</label>
+            <input type="text" id="credit_expiry_month" name="credit_expiry_month_val" placeholder="MMM"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="credit_expiry_year">Credit Card Expiry Year</label>
+            <input type="text" id="credit_expiry_year" name="credit_expiry_year_val" placeholder="YYYY"><br>
+        </div>
+
+        
+        <h2 align="center">Buy Generously</h2>
+
+        <div class ="form_group">
+            <label for="table_lamp">Table Lamp  &nbsp; ($15)</label>
+            <input type="text" id="table_lamp" name="table_lamp_val" placeholder="qty"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="carpet">Carpet  &nbsp; ($20)</label>
+            <input type="text" id="carpet" name="carpet_val" placeholder="qty"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="coffee_table">Coffee Table &nbsp; ($30)</label>
+            <input type="text" id="coffee_table" name="coffee_table_val" placeholder="qty"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="flower_vase">Flower Vase &nbsp; ($10)</label>
+            <input type="text" id="flower_vase" name="flower_vase_val" placeholder="qty"><br>
+        </div>
+
+        <div class ="form_group">
+            <label for="golf_set">Golf Set &nbsp; ($50)</label>
+            <input type="text" id="golf_set" name="golf_set_val" placeholder="qty"><br><br>
+        </div>
+
+        <div id="errors_div" style="color: red;"></div>
+        <br>
+
+        <div class="submit_button">
+            <input type="submit" value="Checkout">
+        </div>
+    </form>
+
+    <div id="reciept_div"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
